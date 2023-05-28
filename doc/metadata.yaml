@@ -1,0 +1,11 @@
+description: null
+github_branch: RGBC01A
+github_repo: RGBC01
+github_url: https://github.com/mlab-modules/RGBC01
+homepage: false
+images:
+- doc/img/RGBC01A_top_small.jpg
+- doc/img/RGBC01A_QRcode.png
+mark: 50
+tags: []
+title: RGBC01
