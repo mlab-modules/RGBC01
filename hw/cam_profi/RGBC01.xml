@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/RGBC01.kicad_sch</source>
+    <date>Sun Sep 17 11:46:51 2023</date>
+    <tool>Eeschema 7.0.7-7.0.7~ubuntu23.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RGBC01</title>
+        <company/>
+        <rev/>
+        <date>2023-09-17</date>
+        <source>RGBC01.kicad_sch</source>
+        <comment number="1" value="RGB color sensor with I2C interface."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uf</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RGBC01-rescue" part="CP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593b828</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RGBC01-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593c035</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RGBC01-rescue" part="C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593b808</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BZV55C-3,6V</value>
+      <footprint>Mlab_D:Diode-MiniMELF_Standard</footprint>
+      <libsource lib="RGBC01-rescue" part="ZENERsmall" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593b6d9</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LL-S170IRC-2A</value>
+      <footprint>Mlab_D:LED_0805</footprint>
+      <libsource lib="RGBC01-rescue" part="LED" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593d884</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>JUMP_5X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x05</footprint>
+      <libsource lib="RGBC01-rescue" part="JUMP_5X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593c646</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x01</footprint>
+      <libsource lib="RGBC01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593c801</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CONN1_2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x01</footprint>
+      <libsource lib="RGBC01-rescue" part="CONN1_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593c30f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:SMD_1x1</footprint>
+      <libsource lib="RGBC01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005594d249</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:SMD_1x1</footprint>
+      <libsource lib="RGBC01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005594d305</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:SMD_1x1</footprint>
+      <libsource lib="RGBC01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005594d33d</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Pin_Headers:SMD_1x1</footprint>
+      <libsource lib="RGBC01-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005594d2c7</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="RGBC01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593df34</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>HOLE</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="RGBC01-rescue" part="HOLE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593e06b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RGBC01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593b776</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RGBC01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593bdd8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RGBC01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593be08</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>22R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="RGBC01-rescue" part="R" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593bf0e</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>TCS37717</value>
+      <footprint>Mlab_IO:FN</footprint>
+      <libsource lib="RGBC01-rescue" part="TCS37717" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RGBC01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005593bbc3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="RGBC01-rescue" part="C">
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RGBC01-rescue" part="CONN1_1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN1_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RGBC01-rescue" part="CONN1_2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN1_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RGBC01-rescue" part="CP">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RGBC01-rescue" part="HOLE">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">HOLE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RGBC01-rescue" part="JUMP_5X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_5X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="6" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="7" type="passive"/>
+        <pin num="9" name="10" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RGBC01-rescue" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RGBC01-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RGBC01-rescue" part="TCS37717">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TCS37717</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="SCL" type="passive"/>
+        <pin num="3" name="GND" type="output"/>
+        <pin num="4" name="LDR" type="passive"/>
+        <pin num="5" name="INT" type="unspecified"/>
+        <pin num="6" name="SDA" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="RGBC01-rescue" part="ZENERsmall">
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENERsmall</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="RGBC01-rescue">
+      <uri>/github/workspace/hw/sch_pcb/RGBC01-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SCL">
+      <node ref="J1" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="SCL" pintype="passive"/>
+    </net>
+    <net code="2" name="/SDA">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="7" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="X1" pin="6" pinfunction="SDA" pintype="unspecified"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="10" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="M1" pin="1" pintype="input"/>
+      <node ref="M2" pin="1" pintype="input"/>
+      <node ref="X1" pin="3" pinfunction="GND" pintype="output"/>
+    </net>
+    <net code="4" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="PM" pintype="passive"/>
+      <node ref="X1" pin="4" pinfunction="LDR" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(J2-P1)">
+      <node ref="J2" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="X1" pin="5" pinfunction="INT" pintype="unspecified"/>
+    </net>
+    <net code="6" name="Net-(X1-VDD)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="7" name="VDD">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="6" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
