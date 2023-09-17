@@ -1,4 +1,7 @@
-description: null
+description: The sensor comprises a sensor red, green, blue and clear colors. Communication
+  takes place via the I2C interface. Circuit includes a power supply for external
+  IR LED. The sensor can be used to measure lighting conditions, or also for detection
+  of the line for the bar and the robot for sensing rotation of automotive wheels.
 github_branch: RGBC01A
 github_repo: RGBC01
 github_url: https://github.com/mlab-modules/RGBC01
