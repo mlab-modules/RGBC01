@@ -9,7 +9,16 @@ homepage: false
 images:
 - doc/img/RGBC01A_top_small.jpg
 - doc/img/RGBC01A_QRcode.png
+- doc/gen/img/RGBC01-top.png
+- doc/gen/img/RGBC01-bottom.png
+- doc/gen/RGBC01-schematic.svg
+- doc/gen/img/RGBC01-top.svg
+- doc/gen/img/RGBC01-bottom.svg
+- hw/cam_profi/docs/RGBC01A-assembly_page_02.svg
+- hw/cam_profi/docs/RGBC01A-assembly_page_01.svg
 mark: 50
+mod_ibom: hw/cam_profi/ibom/RGBC01-ibom.html
+mod_scheme: doc/gen/RGBC01-schematic.pdf
 status: 2
 tags:
 - mlab
